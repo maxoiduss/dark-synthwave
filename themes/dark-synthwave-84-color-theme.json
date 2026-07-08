@@ -1609,8 +1609,7 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.borrow.and.rust",
-				"keyword.unsafe"
+				"keyword.operator.borrow.and.rust"
 			],
 			"settings": {
 				"foreground": "#FF5024"
