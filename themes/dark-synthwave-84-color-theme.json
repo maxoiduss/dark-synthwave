@@ -206,7 +206,13 @@
 		"parameter:javascript": "#6089B4",
 		"parameter:python": "#E75D00",
 		"selfParameter:python": "#A166AE",
-		"parameter:java": "#939393"
+		"parameter:java": "#939393",
+		"keyword.unsafe":{
+			"foreground": "#FE4450"
+		},
+		"*.mutable": {
+			"fontStyle": "underline"
+		}
 	},
 	"tokenColors": [
 		{
@@ -1582,6 +1588,132 @@
 			],
 			"settings": {
 				"foreground": "#2EE2FA"
+			}
+		},
+		{
+			"scope": "variable.other.rust",
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.lifetime.rust",
+				"entity.name.type.lifetime.rust",
+				"entity.name.namespace.rust",
+				"storage.modifier.mut.rust"
+			],
+			"settings": {
+				"foreground": "#BB5400"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.borrow.and.rust",
+				"keyword.unsafe"
+			],
+			"settings": {
+				"foreground": "#FF5024"
+			}
+		},
+		{
+			"scope": "keyword.operator.dereference.rust",
+			"settings": {
+				"foreground": "#67E4AA"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.mut.rust"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"meta.macro.rust",
+				"constant.numeric.decimal.rust"
+			],
+			"settings": {
+				"foreground": "#6797FF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.rust",
+				"string.quoted.double.rust"
+			],
+			"settings": {
+				"foreground": "#638B4B"
+			}
+		},
+		{
+			"scope":[
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape"
+			],
+			"settings": {
+				"foreground": "#30F86C"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.raw.rust",
+				"string.quoted.byte.raw.rust"
+			],
+			"settings": {
+				"foreground": "#536846"
+			}
+		},
+		{
+			"scope": "entity.name.function.rust",
+			"settings": {
+				"foreground": "#EE9D77"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.module.rust",
+				"keyword.other.rust",
+				"meta.attribute.rust",
+				"punctuation.semi.rust",
+				"punctuation.comma.rust",
+				"punctuation.brackets.angle.rust"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.call.rust",
+			  "entity.name.type.result.rust"
+			],
+			"settings": {
+				"foreground": "#EC8464"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.rust",
+				"entity.name.type.numeric.rust",
+				"entity.name.type.struct.rust",
+			],
+			"settings": {
+				"foreground": "#CCB532"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.numeric.rust",
+				"entity.name.type.primitive.rust"
+			],
+			"settings": {
+				"foreground": "#959B3D"
 			}
 		},
 		{
