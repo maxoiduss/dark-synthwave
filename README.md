@@ -40,6 +40,11 @@ It's for the original theme: before you make any changes, [please read the contr
 
 ## Changelog 📜
 
+### 1.1.3
+
+ - Cleared Rust highlight useless [impact](https://github.com/maxoiduss/dark-synthwave-84/commit/2f9649ec63b398ad50408d1cb6c2147c4acb34c0)
+
+#
 ### 1.1.2
 
  - [Modified styles](https://github.com/maxoiduss/dark-synthwave-84/commit/7c636fd0006e3203e21b0786302d6db215d33c1a) for `Settings UI`
