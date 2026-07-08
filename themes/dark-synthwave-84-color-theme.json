@@ -72,7 +72,6 @@
 		"editorWidget.background": "#171520DC",
 		"editorWidget.border": "#FFFFFF22",
 		"editorWidget.resizeBorder": "#FFFFFF44",
-		//"errorForeground": "#FF1D2C",
 		"extensionButton.prominentForeground": "#500000",
 		"extensionButton.prominentBackground": "#F97E72",
 		"extensionButton.prominentHoverBackground": "#FF7EDB",
@@ -139,6 +138,10 @@
 		"notificationsWarningIcon.foreground": "#CFF172AA",
 		"notificationsInfoIcon.foreground": "#3794FFAA",
 		"selection.background": "#FFFFFF20",
+		"settings.headerForeground": "#DFCBFA",
+		"settings.textInputForeground": "#BEEDFF",
+		"settings.numberInputForeground": "#09F7A0",
+		"settings.checkboxForeground": "#09F7A0",
 		"sideBar.background": "#1F11316C",
 		"sideBar.dropBackground": "#34294F4C",
 		"sideBar.foreground": "#FFFFFF99",
@@ -163,6 +166,7 @@
 		"statusBarItem.warningHoverForeground": "#BBFF00",
 		"statusBarItem.compactHoverBackground":"#A9F2FFAA",
 		"tab.activeBorder": "#880088",
+		"tab.hoverBorder": "#88008880",
 		"tab.border": "#07000F",
 		"tab.inactiveBackground": "#26233598",
 		"tab.unfocusedActiveBackground": "#27001570",
@@ -1672,7 +1676,7 @@
 				"source.rust"
 			],
 			"settings": {
-				"foreground": "#A18BFF"
+				"foreground": "#C2915F"
 			}
 		},
 		{
