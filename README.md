@@ -40,6 +40,13 @@ It's for the original theme: before you make any changes, [please read the contr
 
 ## Changelog 📜
 
+### 1.1.2
+
+ - [Modified styles](https://github.com/maxoiduss/dark-synthwave-84/commit/7c636fd0006e3203e21b0786302d6db215d33c1a) for `Settings UI`
+
+ - [Full syntax highlighting](https://github.com/maxoiduss/dark-synthwave-84/commit/3137391c7950cae8921db3d5e1e92a0dac8e31e7) for Rust
+
+#
 ### 1.1.1
 
  - `Relaunch Terminal` [command](https://github.com/maxoiduss/dark-synthwave-84/commit/453a7b984d54f1f538ec906a258caa65362ce53e) right near `Kill terminal`
