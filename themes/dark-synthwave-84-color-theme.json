@@ -1649,11 +1649,11 @@
 		},
 		{
 			"scope":[
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape"
+				"constant.numeric.rust",
+				"constant.language.rust",
+				"support.constan.rust",
+				"constant.character.rust",
+				"constant.escape.rust"
 			],
 			"settings": {
 				"foreground": "#30F86C"
