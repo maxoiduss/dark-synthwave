@@ -16,6 +16,21 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "SynthWave",
+    "Dark",
+    "Theme",
+    "Purple",
+    "Deep purple",
+    "Comfortable",
+    "Syntax",
+    "Highlight",
+    "Customization",
+    "Customizable"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true
+  },
   "main": "./out/extension.js",
   "activationEvents": [
     "onStartupFinished"
