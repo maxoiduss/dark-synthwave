@@ -254,6 +254,7 @@ export class OutputFilterHandler implements vscode.Disposable {
         cancellable: true
       }, async (_progress, token) => {
         const onCancel = token.onCancellationRequested(async () => {
+          await vscode.env.clipboard.writeText(this.lastCopiedText);
           await this.showCanOpenSettings();
           onCancel.dispose();
         });
