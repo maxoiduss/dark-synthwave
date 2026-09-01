@@ -77,7 +77,7 @@ export class ActivityBarHandler {
     this.created = true;
 
     let callCount = 0;
-    let timeout: number;
+    let timeout: any;
     const activityBarToggle = vscode.commands.registerCommand(
       brand.showActivityBar,
       () => {

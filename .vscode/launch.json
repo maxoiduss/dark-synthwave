@@ -10,12 +10,17 @@
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
+				"--extensionDevelopmentPath=${workspaceFolder}",
+        "--enable-source-maps"
 			],
 			"outFiles": [
-				"${workspaceFolder}/out/**/*.js"
-			],
-			"preLaunchTask": "watcher"
+        "${workspaceFolder}/dist/extension.js",
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+			"preLaunchTask": "compiling",
+			"sourceMaps": true,
+      "smartStep": true,
+      "showAsyncStacks": true
 		}
 	]
 }

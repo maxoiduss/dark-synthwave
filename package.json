@@ -546,8 +546,14 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run pretest",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
+    "tsc": "tsc -p ./",
+    "compile": "npm run tsc && npm run compile-desktop && npm run compile-web",
+    "compile-desktop": "node esbuild.js --desktop",
+    "compile-web": "node esbuild.js --web",
+    "watch": "npm run tsc && node esbuild.js --watch",
+    "watch-desktop": "npm run tsc && node esbuild.js --desktop --watch",
+    "watch-web": "npm run tsc && node esbuild.js --web --watch",
+    "browser": "vscode-test-web --extensionDevelopmentPath=. .",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint .",
     "test": "node ./out/test/runTest.js"
@@ -557,6 +563,7 @@
     "@types/vscode": "^1.79.0",
     "@typescript-eslint/eslint-plugin": "^8.66.0",
     "@typescript-eslint/parser": "^8.66.0",
+    "@vscode/test-web": "^0.0.81",
     "esbuild": "^0.28.1",
     "eslint": "^8.57.1",
     "typescript": "^6.0.3"

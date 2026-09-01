@@ -5,8 +5,8 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "watch",
-			"label": "watcher",
+			"script": "compile",
+			"label": "compiling",
 			"icon": {"id": "combine"},
 			"problemMatcher": "$tsc-watch",
 			"isBackground": true,
