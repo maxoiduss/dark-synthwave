@@ -1,114 +1,141 @@
-# Dark Synthwave - VSC theme
-![Synthwave car logo over a synthmoon](https://raw.githubusercontent.com/maxoiduss/dark-synthwave-84/master/banner.png)
-Theme based on [Synthwave Robb Owen theme](https://github.com/robb0wen/synthwave-vscode)
+# Dark SynthWave
+![Synthwave car logo over a synthmoon](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/banner.png)
+VS Code Theme based on [Synthwave Robb Owen theme](https://github.com/robb0wen/synthwave-vscode)
+## ![vscode](https://img.shields.io/badge/VS%20Code-1.79+-blue) [![Version](https://vsmarketplacebadges.dev/version-short/maxoiduss.dark-synthwave.png)](https://marketplace.visualstudio.com/items?itemName=maxoiduss.dark-synthwave) [![GitHub](https://img.shields.io/badge/github-dark--synthwave-purple?style=flat&logo=github)](https://github.com/maxoiduss/dark-synthwave)
 
 # Description
-![Window](https://raw.githubusercontent.com/maxoiduss/dark-synthwave-84/master/window.png)
+![Window](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/window.png)
 
-Ideologically close Robb's synthwave vibe - theme but *without* glowing effect - just a simple theme for comfortable coding with several extra features.
-You can find native syntax highlighting for top-most known languages such as
-Java, Python, Dart, C#, Kotlin, Swift, TypeScript, C++, Go and other.
+Ideologically close Robb's synthwave vibe - theme but *without* glowing effect - <u>just a theme for comfortable coding</u> with *several extra features*.
+You can find native syntax highlighting for top-most known languages such as **Java**, **Python**, **Dart**, **C#**, **Kotlin**, **Swift**, **TypeScript**, **C++**, **Rust** and other.
 
-![Languages](https://raw.githubusercontent.com/maxoiduss/dark-synthwave-84/master/languages.png)
+![Languages](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/languages.png)
 
 And also here are extra features like *Reveal File* in the Explorer view or *Extension* (if it's opened as project and installed) and Toggle *Show/Hide Activity Bar* button in the Status Bar.
 
-![Features](https://raw.githubusercontent.com/maxoiduss/dark-synthwave-84/master/features.png)
+![Features](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/features.png)
 
 ### Features
-- 👁️‍🗨️ *Hidden* Extensions View. Drag it to *Extensions View Container*, then you can see all hidden extension just by expanding this view. You need to collapse this view in order not to show them again.
-- 🎯 *Reveal file* is a 'target' icon on the Tab Bar. Click on it shows you: a) the file revealed in the *Explorer View* - if it's opened in the Editor right now, b) installed extension - if its name equals the project name is opened now, c) pop up message where you can choose between opening Dark SynthWave settings or all running extensions View.
-- ⬅️ *Show/Hide Activity Bar* is the item in the Status Bar. Single click will hide or show - if it's hidden - Activity Bar. Rapid multiclick will show you a menu with several variants what to toggle (show/hide).
-- 📟 *Rules* for the *Filter* in the *Output* channels. In the settings you can specify the string you will automatically have in the clipboard when you a) copy *non selected* text - in the selected channel specified by you or b) use 'Show Ouput Log Using Rules' command. After that you can paste the string to Output Filter, there is the only way to force the channel to filter the messages.
-- 📏 *Editor Rulers configuring* - there is ability to use sliders and color pickers to manage all Editor Rulers saved in the settings. Open respective context menu command from opened settings tab.
-- 🎛️ *Theme customization* - you can customize foreground and background colors of the theme using *Color Picker* right in the settings.
+- 👁️‍🗨️ __*Hidden* Extensions View__.
+Drag it to *Extensions View Container*, then you can see all hidden extension just by expanding this view. You need to collapse this view in order not to show them again.
+
+- 🎯 __*Reveal file*__ is a 'target' icon on the Tab Bar.
+Click on it shows you: **a)** the file revealed in the *Explorer View* - if it's opened in the Editor right now, **b)** installed extension - if its name equals the project name is opened now, **c)** pop up message where you can choose between opening Dark SynthWave settings or all running extensions View.
+
+- ⬅️ __*Show/Hide Activity Bar*__ is the item in the Status Bar.
+Single click will hide or show - if it's hidden - Activity Bar. Rapid multiclick will show you a menu with several variants what to toggle (show/hide).
+
+- 📟 __*Rules* for the *Filter*__ in the *Output* channels.
+In the settings you can specify the string you will automatically have in the clipboard when you **a)** copy *non selected* text - in the selected channel specified by you or **b)** use 'Show Ouput Log Using Rules' command. After that you can paste the string to Output Filter, there is the only way to force the channel to filter the messages.
+
+- 📏 __*Editor Rulers configuring*.__
+There is ability to use sliders and color pickers to manage all Editor Rulers saved in the settings. Open respective context menu command from opened settings tab.
+
+- 🎛️ __*Theme customization*__
+You can customize foreground and background colors of the theme using *Color Picker* right in the settings.
 
 ## Original theme 🎨 
 
-Original theme according to Robb 0wen is influenced by the music and the cover artwork of modern Synthwave bands like FM-84, Timecop 1983 and The Midnight. By association, that means he's also taken heavy influence from the excellent [retro-tinged artwork of James White](https://signalnoise.com/).
+Original theme according to `Robb 0wen` is influenced by the music and the cover artwork of modern Synthwave bands like FM-84, Timecop 1983 and The Midnight. By association, that means he's also taken heavy influence from the excellent [retro-tinged artwork of James White](https://signalnoise.com/).
 
-## Contributing original ✨
+## Contributing to Original theme ✨
 It's for the original theme: before you make any changes, [please read the contribution guide](https://github.com/robb0wen/synthwave-vscode/blob/master/CONTRIBUTING.md).
 
 ## Thanks from Robb 🫡
+<details><summary><u>THANKS</u></summary>
+
 >Lastly, I couldn't have made this if it weren't for the fantastic work of [Sarah Drasner](https://twitter.com/sarah_edo). Her [tutorial on theming for CSS tricks](https://css-tricks.com/creating-a-vs-code-theme/) was a huge help in developing this 🙏
 >Similarly, I'd like to thanks [Wes Bos](https://twitter.com/wesbos) for his [cool Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode). His readme helped me figure out how to package this hot mess for public use 👍
 >If this theme is too much, then I recommend [Horizon](https://github.com/jolaleye/horizon-theme-vscode), or [City Lights](http://citylights.xyz/) for a similar, yet more understated, retro vibe. They're both beautiful.
+</details>
 
 ## Thanks from Me 🫡
 >Thank you [Robb](https://github.com/robb0wen)
 
 ## Changelog 📜
+#### &nbsp;&nbsp;&nbsp; [LOG](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/CHANGELOG.md)
+<details><summary><u>CHANGELOG</u></summary>
 
-### 1.1.3
+> ### 1.1.4
+>
+> - [Optimized packaging](https://github.com/maxoiduss/dark-synthwave/commit/a0c3ccb27903ec19015b3850eb12d78571e929fb) by using esbuild and package building fixes()
+>
+> - [Added and configured](https://github.com/maxoiduss/dark-synthwave/commit/16606af13edc3c40afe9a2b3bb5840cc4739a722) `web environment` build and run
+>
+> - Project-level [naming fixes](https://github.com/maxoiduss/dark-synthwave/commit/dde8d54adc358d7f91b22256a1b721c3ecf6718a)
+>
+>### 1.1.3
+>
+> - Cleared Rust highlight useless [impact](https://github.com/maxoiduss/dark-synthwave/commit/2f9649ec63b398ad50408d1cb6c2147c4acb34c0)
+>
+>#
+>### 1.1.2
+>
+> - [Modified styles](https://github.com/maxoiduss/dark-synthwave/commit/7c636fd0006e3203e21b0786302d6db215d33c1a) for `Settings UI`
+>
+> - [Full syntax highlighting](https://github.com/maxoiduss/dark-synthwave/commit/3137391c7950cae8921db3d5e1e92a0dac8e31e7) for Rust
+>
+>#
+>### 1.1.1
+>
+> - `Relaunch Terminal` [command](https://github.com/maxoiduss/dark-synthwave/commit/453a7b984d54f1f538ec906a258caa65362ce53e) right near `Kill terminal`
+>
+> - Removed `Open Embedded Web Browser` command as redundand
+>
+> - `Gitdecorations` and `Debug Console` colors [updated](https://github.com/maxoiduss/dark-synthwave/commit/72142240d88c2aa9b0d0fccd3d3d8c6a07744196)
+>
+>#
+>### 1.1.0
+>
+> - `Fixed spawning errors` [when no Workspace is opened](https://github.com/maxoiduss/dark-synthwave/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea).
+>
+> - [Use or Not Workspace level](https://github.com/maxoiduss/dark-synthwave/commit/dddf20e68c8aa00abd2ebd71992655d4a4a8d6d2) [setting](https://github.com/maxoiduss/dark-synthwave/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea) for `Output Filter` configuration property.
+>
+> - [*Editor Rulers* configuring](https://github.com/maxoiduss/dark-synthwave/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea) as a part of additional customization.
+>
+>#
+>### 1.0.6
+>
+> - [Fixed crucial misbehavior](https://github.com/maxoiduss/dark-synthwave/commit/5578185b8e7e2a8fcd6437ba2ca33df467ea26e5) on copying the text from not-editor places (like *notifications*).
+>
+> - [Theme window](https://github.com/maxoiduss/dark-synthwave/commit/a88e57bdafe387a288a8b853458c3dd0e7435fd7) view image for the presentation.
+>
+>#
+>### 1.0.5
+>
+> - [*Theme customization*](https://github.com/maxoiduss/dark-synthwave/commit/7c40a92cfef325800b567fb36e939715ec0224e7) in settings using [`Color Picker`](https://github.com/maxoiduss/dark-synthwave/commit/f7d759a7d892f6745a588022153d3d4bca6d9a1c).
+>
+> - [`Reopen Closed Editor` and `Open Embedded Web Browser` commands](https://github.com/maxoiduss/dark-synthwave/commit/0b842c88b779d9f8f9ee561762553793c084727d) in the title context menu.
+>
+>#
+>### 1.0.4
+>
+> - [Hidden *Pick dialog* menu](https://github.com/maxoiduss/dark-synthwave/commit/4172c13bb11bafb00e7eecde3165f02187563d81) - on multiclicking on <a href="#102">`Show/Hide Activity Bar`</a> button *(the menu may be populated later)*
+>
+> - [Noticable theme colors](https://github.com/maxoiduss/dark-synthwave/commit/900b83ab0bcf09a01cdbdf2e17e9d69ae0958298) - to detect active and inactive windows
+>
+>#
+>### 1.0.3
+>
+> - [New `Reveal File or Extension` feature](https://github.com/maxoiduss/dark-synthwave/commit/7cfd19d350a66fb15d8a0953981d758e798f7ff0) - can show *extension's settings* otherwise
+>
+> - [ `Output Filter Handling` command](https://github.com/maxoiduss/dark-synthwave/commit/494e3367996a0164fe0871486cce031d211716df) and [*rules* in the settings](https://github.com/maxoiduss/dark-synthwave/commit/b0c891fe19963db63586fce05cc44c4eba6f9538)
+>
+>#
+>### 1.0.2
+>
+> - [New](https://github.com/maxoiduss/dark-synthwave/commit/33b61d4bbcf2485f0d20f4a1de8822dcd9267602) and [*Fixed*](https://github.com/maxoiduss/dark-synthwave/commit/7542c6a5b5a0f1f0e606b67e84228ad7e5eb0e6a) [`Hidden Extensions`](https://github.com/maxoiduss/dark-synthwave/commit/7542c6a5b5a0f1f0e606b67e84228ad7e5eb0e6a) section
+>
+> - [`Show/Hide Activity Bar` button](https://github.com/maxoiduss/dark-synthwave/commit/7c14596d53bd3a51a7c6828ee21df6df9c38209b) - in top left of Status Bar
+>
+>#
+>### 1.0.1
+> 
+> - [Customized](https://github.com/maxoiduss/dark-synthwave/commit/143219649871903fe7672c73f5a67b7465ae8498) theme, [languages syntax](https://github.com/maxoiduss/dark-synthwave/commit/46f04fa7f32793020eb266b2ad30f8b4f9cbff8c) setup
+>
+> - [Initial release](https://github.com/maxoiduss/dark-synthwave/commit/66e1cbb29130f5cc100b3d4c7b0bc5e2a10a1921) of  [*`Dark Synthwave`*](https://github.com/maxoiduss/dark-synthwave) - from [*Orignal* theme](https://github.com/robb0wen/synthwave-vscode)
+<br>
+</details>
 
- - Cleared Rust highlight useless [impact](https://github.com/maxoiduss/dark-synthwave-84/commit/2f9649ec63b398ad50408d1cb6c2147c4acb34c0)
-
-#
-### 1.1.2
-
- - [Modified styles](https://github.com/maxoiduss/dark-synthwave-84/commit/7c636fd0006e3203e21b0786302d6db215d33c1a) for `Settings UI`
-
- - [Full syntax highlighting](https://github.com/maxoiduss/dark-synthwave-84/commit/3137391c7950cae8921db3d5e1e92a0dac8e31e7) for Rust
-
-#
-### 1.1.1
-
- - `Relaunch Terminal` [command](https://github.com/maxoiduss/dark-synthwave-84/commit/453a7b984d54f1f538ec906a258caa65362ce53e) right near `Kill terminal`
-
- - Removed `Open Embedded Web Browser` command as redundand
-
- - `Gitdecorations` and `Debug Console` colors [updated](https://github.com/maxoiduss/dark-synthwave-84/commit/72142240d88c2aa9b0d0fccd3d3d8c6a07744196)
-
-#
-### 1.1.0
-
- - `Fixed spawning errors` [when no Workspace is opened](https://github.com/maxoiduss/dark-synthwave-84/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea).
-
- - [Use or Not Workspace level](https://github.com/maxoiduss/dark-synthwave-84/commit/dddf20e68c8aa00abd2ebd71992655d4a4a8d6d2) [setting](https://github.com/maxoiduss/dark-synthwave-84/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea) for `Output Filter` configuration property.
-
- - [*Editor Rulers* configuring](https://github.com/maxoiduss/dark-synthwave-84/commit/5b412f99482e08228fa9a916ac2f515ceb9dc2ea) as a part of additional customization.
-
-#
-### 1.0.6
-
- - [Fixed crucial misbehavior](https://github.com/maxoiduss/dark-synthwave-84/commit/5578185b8e7e2a8fcd6437ba2ca33df467ea26e5) on copying the text from not-editor places (like *notifications*).
-
- - [Theme window](https://github.com/maxoiduss/dark-synthwave-84/commit/a88e57bdafe387a288a8b853458c3dd0e7435fd7) view image for the presentation.
-
-#
-### 1.0.5
-
- - [*Theme customization*](https://github.com/maxoiduss/dark-synthwave-84/commit/7c40a92cfef325800b567fb36e939715ec0224e7) in settings using [`Color Picker`](https://github.com/maxoiduss/dark-synthwave-84/commit/f7d759a7d892f6745a588022153d3d4bca6d9a1c).
-
- - [`Reopen Closed Editor` and `Open Embedded Web Browser` commands](https://github.com/maxoiduss/dark-synthwave-84/commit/0b842c88b779d9f8f9ee561762553793c084727d) in the title context menu.
-
-#
-### 1.0.4
-
- - [Hidden *Pick dialog* menu](https://github.com/maxoiduss/dark-synthwave-84/commit/4172c13bb11bafb00e7eecde3165f02187563d81) - on multiclicking on <a href="#102">`Show/Hide Activity Bar`</a> button *(the menu may be populated later)*
-
- - [Noticable theme colors](https://github.com/maxoiduss/dark-synthwave-84/commit/900b83ab0bcf09a01cdbdf2e17e9d69ae0958298) - to detect active and inactive windows
-
-#
-### 1.0.3
-
- - [New `Reveal File or Extension` feature](https://github.com/maxoiduss/dark-synthwave-84/commit/7cfd19d350a66fb15d8a0953981d758e798f7ff0) - can show *extension's settings* otherwise
-
- - [ `Output Filter Handling` command](https://github.com/maxoiduss/dark-synthwave-84/commit/494e3367996a0164fe0871486cce031d211716df) and [*rules* in the settings](https://github.com/maxoiduss/dark-synthwave-84/commit/b0c891fe19963db63586fce05cc44c4eba6f9538)
-
-#
-### 1.0.2
-
- - [New](https://github.com/maxoiduss/dark-synthwave-84/commit/33b61d4bbcf2485f0d20f4a1de8822dcd9267602) and [*Fixed*](https://github.com/maxoiduss/dark-synthwave-84/commit/7542c6a5b5a0f1f0e606b67e84228ad7e5eb0e6a) [`Hidden Extensions`](https://github.com/maxoiduss/dark-synthwave-84/commit/7542c6a5b5a0f1f0e606b67e84228ad7e5eb0e6a) section
-
- - [`Show/Hide Activity Bar` button](https://github.com/maxoiduss/dark-synthwave-84/commit/7c14596d53bd3a51a7c6828ee21df6df9c38209b) - in top left of Status Bar
-
-#
-### 1.0.1
- 
- - [Customized](https://github.com/maxoiduss/dark-synthwave-84/commit/143219649871903fe7672c73f5a67b7465ae8498) theme, [languages syntax](https://github.com/maxoiduss/dark-synthwave-84/commit/46f04fa7f32793020eb266b2ad30f8b4f9cbff8c) setup
-
- - [Initial release](https://github.com/maxoiduss/dark-synthwave-84/commit/66e1cbb29130f5cc100b3d4c7b0bc5e2a10a1921) of  [*`Dark Synthwave`*](https://github.com/maxoiduss/dark-synthwave-84) - from [*Orignal* theme](https://github.com/robb0wen/synthwave-vscode)
-
- 
+## License
+#### &nbsp;&nbsp;&nbsp; [LICENSE](https://raw.githubusercontent.com/maxoiduss/dark-synthwave/master/LICENSE.txt)
