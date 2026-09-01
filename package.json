@@ -31,7 +31,8 @@
   "capabilities": {
     "virtualWorkspaces": true
   },
-  "main": "./out/extension.js",
+  "main": "./dist/extension.js",
+  "browser": "./dist/extension.web.js",
   "activationEvents": [
     "onStartupFinished"
   ],
@@ -552,9 +553,11 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
+    "@types/node": "^26.1.2",
     "@types/vscode": "^1.79.0",
-    "@typescript-eslint/eslint-plugin": "^8.53.0",
-    "@typescript-eslint/parser": "^8.53.0",
+    "@typescript-eslint/eslint-plugin": "^8.66.0",
+    "@typescript-eslint/parser": "^8.66.0",
+    "esbuild": "^0.28.1",
     "eslint": "^8.57.1",
     "typescript": "^6.0.3"
   }

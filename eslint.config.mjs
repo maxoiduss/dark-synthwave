@@ -6,7 +6,8 @@ export default [
     ignores: [
       "out",
       "dist",
-      "**/*.d.ts"
+      "**/*.d.ts",
+      ".vscode*"
     ]
   },
   {

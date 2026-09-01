@@ -1,6 +1,10 @@
 .vscode/**
 .vscode-test/**
+src/**
+esbuild*
+eslint*
 .gitignore
 banner.png
+features.png
 languages.png
 window.png

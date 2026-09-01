@@ -1,11 +1,26 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
+    "types": ["node"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "target": "es2024",
     "outDir": "out",
     "rootDir": "src",
     "strict": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "removeComments": true,
+    "inlineSources": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUncheckedSideEffectImports": true,
+    "allowSyntheticDefaultImports": true,
   },
-  "exclude": ["node_modules", ".vscode-test"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "out",
+    "node_modules",
+    ".vscode-test"
+  ]
 }
