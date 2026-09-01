@@ -1,5 +1,13 @@
 ## Changelog
 
+### 1.1.4
+
+ - [Optimized packaging](https://github.com/maxoiduss/dark-synthwave/commit/a0c3ccb27903ec19015b3850eb12d78571e929fb) by using esbuild and package building fixes()
+
+ - [Added and configured](https://github.com/maxoiduss/dark-synthwave/commit/16606af13edc3c40afe9a2b3bb5840cc4739a722) `web environment` build and run
+
+ - Project-level [naming fixes](https://github.com/maxoiduss/dark-synthwave/commit/dde8d54adc358d7f91b22256a1b721c3ecf6718a)
+
 ### 1.1.3
 
  - Cleared Rust highlight useless [impact](https://github.com/maxoiduss/dark-synthwave-84/commit/2f9649ec63b398ad50408d1cb6c2147c4acb34c0)
